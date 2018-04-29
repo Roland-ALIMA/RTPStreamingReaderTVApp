@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         }
         catch ( UnknownHostException | SocketException e ) {
             e.printStackTrace();
+            e.getMessage();
         }
 
     }
